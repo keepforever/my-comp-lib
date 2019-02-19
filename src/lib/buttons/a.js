@@ -25,7 +25,6 @@ export default props => {
     }
 
     return () => {
-      console.log('unmount = ', '\n' )
       mounted = false
     }
   }, [copied])
