@@ -16,11 +16,17 @@ export default props => {
   const [copied, setCopied ] = useState(false);
 
   useEffect(() => {
-    if(copied) {
-      console.log('hello if block = ', '\n' )
+    let mounted = true;
+
+    if(copied && mounted) {
       setTimeout(() => {
         setCopied(false)
       }, 3000)
+    }
+
+    return () => {
+      console.log('unmount = ', '\n' )
+      mounted = false
     }
   }, [copied])
 

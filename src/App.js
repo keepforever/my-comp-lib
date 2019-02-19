@@ -7,8 +7,10 @@ import Nav from "./comps/Nav";
 const MyApp = () => {
   return (
     <React.Fragment>
-      <Nav />
-      <Routes />
+      <div style={{padding: 20}}>
+        <Nav />
+        <Routes />
+      </div>
     </React.Fragment>
   );
 };
