@@ -1,10 +1,10 @@
 import React from "react";
-import A from "../lib/buttons/a";
-import B from "../lib/buttons/b";
+import A from "../lib/button/a";
+import B from "../lib/button/b";
 
 export default props => {
   return (
-    <div>
+    <div className="white-text">
       <div style={{textAlign: 'center'}}>
         <h1>Buttons</h1>
       </div>

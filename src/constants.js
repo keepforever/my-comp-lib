@@ -1,1 +1,1 @@
-export const routes = ["buttons", "forms", "list-items"];
+export const routes = ["buttons", "forms", "list-items", "badge"];

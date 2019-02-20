@@ -4,7 +4,7 @@ export default  ( props ) => {
 
   return (
     <div>
-      <h2>Hello Forms</h2>
+      <h2 className="white-text ">Hello Forms</h2>
     </div>
   )
 };

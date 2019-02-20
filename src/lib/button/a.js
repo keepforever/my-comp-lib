@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Col, Row } from '../../comps/styled';
+import { CopyButton } from '../../comps/CopyButton'
 
 const Button = styled.button`
   background: teal;
@@ -31,7 +32,7 @@ export default props => {
 
   return (
     <Col >
-    <h3>Button A</h3>
+    <h3 className="black-text">Button A</h3>
       <Row>
         <Button small>small</Button>
         <Button>regular</Button>
@@ -70,22 +71,4 @@ export default ( props ) => {
     </div>
   )
 };
-`;
-
-
-const CopyButton = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: red;
-  font-size: 20px;
-  border-radius: 8px;
-  color: white;
-  height: 40px;
-  width: 120px;
-
-  &:hover {
-    background: green;
-    cursor: pointer;
-  }
 `;
