@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionHeader, CopyButton } from "./styled";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 const aboutText =
   "This website is a hack-n-slash implementation of a style guide. \n \n But instead of being a coherent collection of components that are color coordinated, it's just a random collection of stuff I collect along the way and want to get to fast.";
