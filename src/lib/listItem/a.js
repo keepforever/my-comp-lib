@@ -123,7 +123,7 @@ export default props => {
 
   return (
     <Col>
-      <h3 className="black-text">Badge A</h3>
+      <h3 className="black-text">List-Item A</h3>
       <Row>
         <ListItem />
       </Row>
