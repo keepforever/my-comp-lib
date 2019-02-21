@@ -43,7 +43,7 @@ export default props => {
     <Col>
       <h3 className="black-text">Badge A</h3>
       <Row>
-        <SmallBadge diameter={200}>
+        <SmallBadge diameter={100}>
           B.A.C.
         </SmallBadge>
       </Row>
