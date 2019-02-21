@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Col = styled.div`
+  padding-right: 40px;
   padding-left: 40px;
   margin-top: 20px;
   display: flex;
